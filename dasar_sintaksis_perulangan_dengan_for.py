@@ -1,5 +1,5 @@
 """
-Ini sintaksis perluangan program perulangan membaca buku
+Ini sintaksis perluangan program perulangan membaca buku dengan for
 """
 
 Jumlah_buku=10
