@@ -15,3 +15,15 @@ daftar_buku = ['40 Lawyers','99 Orang Berpengaruh Di dunia', 'How To Basic ']
 del daftar_buku[0::2] #Step Aatau Langkau
 for i in range(0,len(daftar_buku)):
     print(daftar_buku[i])
+
+
+print('\nmembuat list baru')
+daftar_buku = ['40 Lawyers','99 Orang Berpengaruh Di dunia', 'How To Basic ']
+daftar_buku_baru = daftar_buku[:]
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nmembuat list baru')
+del daftar_buku[:]
+for i in range(0,len(daftar_buku_baru)):
+    print(daftar_buku_baru[i ])
